@@ -7,13 +7,13 @@ export default function Menu() {
         <nav className="grid items-center justify-items-center w-full h-14">
             <div className="flex items-center justify-items-center h-10 space-x-4">
                 <Link href="/">
-                    <a className="text-white">Home</a>
+                    <a className="text-white uppercase">Home</a>
                 </Link>
                 <Link href="/">
-                    <a className="text-white">Portfolio</a>
+                    <a className="text-white uppercase">Portfolio</a>
                 </Link>
                 <Link href="/">
-                    <a className="text-white">About us</a>
+                    <a className="text-white uppercase">About us</a>
                 </Link>
             </div>
         </nav>

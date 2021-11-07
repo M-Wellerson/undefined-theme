@@ -6,6 +6,24 @@
 }
 
 .primary {
-    background-color: #212121;
+    background-color: #010101;
     font-family: 'Asap';
+}
+
+.gradient-glitch {
+    text-shadow: 2px 2px #2dd5e3, 4px 4px #2e29e7, -2px -2px #f3db01, -4px -4px #e81f02;
+}
+
+.btn-undefined {
+    display: inline-block;
+    padding: .7rem 2rem;
+    background: rgb(50,63,245);
+    background: linear-gradient(90deg, #323ff5 0%, #4636fb 50%, #7c30fd 100%);
+
+    box-shadow: 0px 6px 25px #323ff5;
+}
+
+.btn-undefined:hover {
+    -webkit-filter: brightness(130%);
+    filter: brightness(130%);
 }
